@@ -24,7 +24,7 @@ namespace task_1
 
             while (true)
             {
-                Console.WriteLine("ВВЕДИТЕ ЧИСЛО");
+                Console.WriteLine("Введите число");
                 var keyChar = Console.ReadKey().KeyChar;
                 Console.Clear();
 
@@ -55,7 +55,7 @@ namespace task_1
                         continue;
                     }
                     foreach (var contact in page)
-                        Console.WriteLine($"{contact.Name} : {contact.LastName }");
+                        Console.WriteLine($"Имя {contact.Name} Фамилия {contact.LastName }");
 
                 }
 
